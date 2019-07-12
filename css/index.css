@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -143,4 +143,153 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
+@keyframes navbuttons {
+    from {background-color: white;}
+    to {background-color: red;}
+}
+
+.navigation a {
+    flex-grow: 1;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    animation-name: navbuttons;
+    animation-duration: 2s;
+    color: white;
+}
+
+.headerimg {
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.middlecontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutbox {
+    flex-wrap: wrap;
+    width: 49%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 10px 15px;
+	text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.aboutbox a:hover {
+    animation-name: navbuttons;
+    animation-duration: 4s;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+footer nav a {
+    padding: 10px 20px;
+}
+
+footer nav a:hover {
+    animation-name: navbuttons;
+    animation-duration: 4s;
+    color: black;
+}
+
+@media only screen and (max-width: 700px) {
+	.aboutbox {
+		width: 80%;
+    }
+}
+
+.aboutbox img {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }

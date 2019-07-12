@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html provides signposting for the document, and for folks using a screenreader. While a <div> is just a container, <nav> has a semantic meaning of navigation, while <header> and <footer> are used at the start/end, respectively. Further, tags like <strong> provide a semantic meaning. Semantics help others to understand the layout of our page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block cannot occupy the same line with other items by default, while display: inline can.
+display: block allows to set a width/length, while display: inline does not.
+
 
 3. What are the 4 areas of the box model?
 
+margin, padding, border, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows for iteration and version control. Multiple developers can work on code at the same time, and there are copies of work as long as people commit and push regularly. Without Git, developers would be overwriting each other's code and the ability to branch (write code away from the main line, for inclusion later) would not exist. Also useful for seeing changes/revision history.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
